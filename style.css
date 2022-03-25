@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Header styling starts here */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-links ul {
+    list-style: none;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0 8px;
+    text-transform: capitalize;
+}
+
+
+/* Header styling ends here */
+
+
+/* Website is awesome styling starts here */
+
+.website-description {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.website-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.website-title-head {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+    padding-right: 40%;
+}
+
+.website-title-body {
+    color: #F9FAF8;
+    padding-right: 64px;
+    text-transform: capitalize;
+    margin: 8px;
+    padding-right: 40%;
+}
+
+.website-title button {
+    width: 150px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    text-transform: capitalize;
+}
+
+.website-image {
+    width: 300px;
+    height: auto;
+}
+
+
+/* Website is awesome styling ends here */
+
+
+/* Content starts here */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.card p {
+    font-size: 18px;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Content ends here */
+
+
+/* inspiring-quote starts here */
+
+.inspiring-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.owner {
+    padding-left: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/* inspiring-quote ends here */
+
+
+/* Sign up starts here */
+
+.signup {
+    display: flex;
+    margin: 50px auto;
+    background-color: #3882f6;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.sigup-description {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    gap: 4px;
+}
+
+.signup-title {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.signup-text {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.signup a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    border: 1px solid white;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+
+/* Sign up ends here */
+
+
+/* Footer starts here */
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+
+/* Footer ends here */
